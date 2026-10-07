@@ -22,7 +22,7 @@ function App() {
       <hr />
 
       <div className="derecha">
-        <img src="/GIT.png" width="250" alt="Git" />
+        <img src={`${import.meta.env.BASE_URL}GIT.png`} width="250" alt="Git" />
 
         <h2>¿Qué es Git?</h2>
 
@@ -36,7 +36,7 @@ function App() {
       <hr />
 
       <div className="izquierda">
-        <img src="/GitHub.png" width="300" alt="GitHub" />
+        <img src={`${import.meta.env.BASE_URL}GitHub.png`} width="300" alt="GitHub" />
 
         <h2>¿Qué es GitHub?</h2>
 
