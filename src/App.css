@@ -132,3 +132,59 @@ ul {
     color: #cbd5e1;
     margin-bottom: 50px !important;
 }
+
+h1 {
+    animation: aparecer 1s ease;
+}
+
+.btn {
+    transition: transform 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.derecha img {
+    animation: entrarDerecha 1s ease;
+}
+
+.izquierda img {
+    animation: entrarIzquierda 1s ease;
+}
+
+@keyframes entrarDerecha {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes entrarIzquierda {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
