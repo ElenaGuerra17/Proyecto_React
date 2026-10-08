@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>Git y GitHub</h1>
+      <h1>Git y GitHub Elena git </h1>
 
       <button onClick={mostrarMensaje} className="btn btn-primary">
         Descripción
@@ -22,7 +22,7 @@ function App() {
       <hr />
 
       <div className="derecha">
-        <img src={`${import.meta.env.BASE_URL}GIT.png`} width="250" alt="Git" />
+        <img src="/GIT.png" width="250" alt="Git" />
 
         <h2>¿Qué es Git?</h2>
 
